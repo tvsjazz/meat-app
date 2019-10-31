@@ -372,81 +372,20 @@
   ],
   "orders": [
     {
-      "address": "Rua Fagundes Varela, 307",
-      "number": "22",
+      "name": "Tiago",
+      "email": "teste@teste.com",
+      "emailConfirmation": "teste@teste.com",
+      "address": "Rua Jacinto",
+      "number": "111",
       "optionalAddress": "",
-      "paymentOption": "DEB",
+      "paymentOption": "MON",
       "orderItems": [
         {
-          "quantity": 2,
-          "menuId": "cake"
-        },
-        {
           "quantity": 1,
-          "menuId": "straw"
+          "menuId": "cup-cake"
         }
       ],
       "id": 1
-    },
-    {
-      "address": "Rua Planalto, 15",
-      "number": "11",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "cup"
-        },
-        {
-          "quantity": 1,
-          "menuId": "straw"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "address": "Rua Almirante",
-      "number": "333",
-      "optionalAddress": "casa",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "capp"
-        },
-        {
-          "quantity": 1,
-          "menuId": "espreso"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "address": "Rua Sacramento",
-      "number": "230",
-      "optionalAddress": "casa 4",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "sunday"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "address": "Rua Dom Jaime",
-      "number": "678",
-      "optionalAddress": "",
-      "paymentOption": "REF",
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "zlasagna"
-        }
-      ],
-      "id": 5
     }
   ]
 }
