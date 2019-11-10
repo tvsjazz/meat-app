@@ -25,6 +25,7 @@ import { OrderService } from './order/order.service';
 import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
 import { OrderSumaryComponent } from './order-sumary/order-sumary.component';
 import { SharedModule } from './shared/shared.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { SharedModule } from './shared/shared.module';
     OrderComponent,
     OrderItemsComponent,
     DeliveryCostsComponent,
-    OrderSumaryComponent
+    OrderSumaryComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
