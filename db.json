@@ -388,36 +388,24 @@
       "id": 1
     },
     {
-      "name": "Tiago",
-      "email": "tiago@tiago.com",
-      "emailConfirmation": "tiago@tiago.com",
-      "address": "Rua Sapolio",
-      "number": "234",
+      "name": "Tiago Siqueira",
+      "email": "tvsjazz@gmail.com",
+      "emailConfirmation": "tvsjazz@gmail.com",
+      "address": "Rua Fagundes Varela",
+      "number": "22",
       "optionalAddress": "",
       "paymentOption": "MON",
       "orderItems": [
         {
-          "quantity": 1,
+          "quantity": 2,
           "menuId": "cup-cake"
+        },
+        {
+          "quantity": 2,
+          "menuId": "donut"
         }
       ],
       "id": 2
-    },
-    {
-      "name": "Tiago",
-      "email": "tvs@tvs.com",
-      "emailConfirmation": "tvs@tvs.com",
-      "address": "Rua Otilio",
-      "number": "123",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "cup-cake"
-        }
-      ],
-      "id": 3
     }
   ]
 }
