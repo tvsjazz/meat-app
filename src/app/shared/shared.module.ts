@@ -9,19 +9,24 @@ import { NotificationService } from "./messages/notification.service";
 import { OrderService } from "app/order/order.service";
 import { ShoppingCartService } from "app/restaurant-detail/shopping-cart/shopping-cart.service";
 import { RestaurantsService } from "app/restaurants/restaurants.service";
+import { LoginService } from '../security/login/login.service';
 
 @NgModule({
     declarations: [InputComponent, RadioComponent, RatingComponent, SnackbarComponent],
     imports: [CommonModule, FormsModule, ReactiveFormsModule],
     exports: [InputComponent, RadioComponent, SnackbarComponent,
-              RatingComponent, CommonModule, 
+              RatingComponent, CommonModule,
               FormsModule, ReactiveFormsModule]
 })
 export class SharedModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: SharedModule,
-            providers: [RestaurantsService, ShoppingCartService, OrderService, NotificationService]
+            providers: [RestaurantsService,
+                        ShoppingCartService,
+                        OrderService,
+                        NotificationService,
+                        LoginService]
         }
     }
 }
