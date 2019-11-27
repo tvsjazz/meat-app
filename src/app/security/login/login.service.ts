@@ -23,6 +23,10 @@ export class LoginService {
                     .do(user => this.user = user);
   }
 
+  logout() {
+    this.user = undefined;
+  }
+
   handleLogin(path?: string) {
     this.router.navigate(['/login', btoa(path)]);
   }
